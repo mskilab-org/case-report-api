@@ -69,6 +69,10 @@ yarn-debug.log*
 !/storage/.keep
 /public/uploads
 
+#content files
+public/datafiles.json
+public/data
+
 # ignore the connect file
 connect.sh
 coverage
