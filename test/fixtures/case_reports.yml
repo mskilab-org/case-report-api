@@ -1,0 +1,31 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pair: MyText
+  unique: 
+  disease: MyString
+  primary_site: MyString
+  inferred_sex: MyString
+  dlrs: 1.5
+  snv_count: 1
+  sv_count: 1
+  loh_fraction: 1.5
+  purity: 1.5
+  ploidy: 1.5
+  beta: 1.5
+  gamma: 1.5
+
+two:
+  pair: MyText
+  unique: 
+  disease: MyString
+  primary_site: MyString
+  inferred_sex: MyString
+  dlrs: 1.5
+  snv_count: 1
+  sv_count: 1
+  loh_fraction: 1.5
+  purity: 1.5
+  ploidy: 1.5
+  beta: 1.5
+  gamma: 1.5

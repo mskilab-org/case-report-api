@@ -1,0 +1,31 @@
+[
+  {
+    "pair": "0210",
+    "tumor_type_final": "GBM",
+    "disease": "Glioblastoma",
+    "primary_site": "brain",
+    "inferred_sex": "female",
+    "dlrs": 0.0738,
+    "snv_count": 586747,
+    "sv_count": 254,
+    "loh_fraction": 0.0986,
+    "purity": 0.7,
+    "ploidy": 1.9779,
+    "beta": 2.7947,
+    "gamma": 0.8571
+  },
+  {
+    "pair": "PM948-Z4-1",
+    "tumor_type_final": "LGG",
+    "disease": "Low-Grade Glioma",
+    "inferred_sex": "male",
+    "dlrs": 0.0747,
+    "snv_count": 819645,
+    "sv_count": 410,
+    "loh_fraction": 0.0565,
+    "purity": 0.74,
+    "ploidy": 1.9221,
+    "beta": 2.5845,
+    "gamma": 0.7027
+  }
+]
