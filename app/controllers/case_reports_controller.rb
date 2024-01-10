@@ -13,8 +13,9 @@ class CaseReportsController < ApplicationController
                     .by_tumor_type_final(params[:tumor_type_final])
                     .by_inferred_sex(params[:inferred_sex])
                     .order(:tumor_type_final)
-                    .paginate(page: params[:page], per_page: params[:per_page])
-    render json: @case_reports
+    total = @case_reports.count
+    records = @case_reports.paginate(page: params[:page], per_page: params[:per_page])
+    render json: { total: total, records: records }
   end
 
   # GET /case_reports/1
